@@ -7,6 +7,7 @@ import random
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
 
+
 bot = Bot(token="6894414755:AAEOxgnEpSzDHEwFgECAxiEMHjq4d0P0QHA", parse_mode="HTML")
 dp = Dispatcher(bot=bot)
 router = Router()
